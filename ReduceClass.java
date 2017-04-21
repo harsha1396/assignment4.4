@@ -20,3 +20,4 @@ public class Reduce extends Reducer<Text, IntWritable, Text, IntWritable>
 		context.write(key, outValue);
 	}
 }
+
